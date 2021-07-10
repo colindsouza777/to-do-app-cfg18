@@ -1,0 +1,12 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <div class="item">
+        <h1>{{list.title}}</h1>
+    <hr>
+    <div>
+        {{list.body | safe}}
+    </div>
+    </div>
+  
+{% endblock %}
